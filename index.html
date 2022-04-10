@@ -1,0 +1,124 @@
+<!-- This is a survey form for a language-learning app -->
+<div id="main">
+  
+<h1 id="title"> EliLang Survey Form </h2>
+
+  <p id="description"> <strong> Thank you for taking the time to help us improve EliLang </strong> </p>
+
+  <div id="main-content">
+<form id="survey-form" action="" method="GET"> 
+  <div>
+  <label for="name" id="name-label"> Name </label> <br>
+<input id="name" name="name" required type="text" placeholder="Your Name">
+  </div> <br>
+  
+  <div>
+    <label for="email" id="email-label"> Email </label> <br>
+    <input id="email" name="email" required type="email" placeholder="Your Email">
+  </div> <br>
+    <div>
+    <label for="number" id="number-label"> Age (optional)</label> <br>
+    <input id="number" name="age" required type="number" min="0" max="110" placeholder="Age">
+  </div> <br>
+  
+  <label for="role">Which option best describes your current role?</label> <br>
+
+<select name="role" id="dropdown">
+  <option value="student">Student</option>
+  <option value="full-time worker">Full-time worker</option>
+  <option value="prefer not to say">Prefer not to say</option>
+  <option value="other">Other</option>
+</select> <br> <br>
+  
+  <label for="learn">What is your favourite way to learn a foreign language?</label>
+
+<div>
+  <input type="radio" id="offlineclasses" name="learn" value="offlineclasses"
+         checked>
+  <label for="offlineclasses">Offline classes</label>
+</div>
+
+<div>
+  <input type="radio" id="books" name="learn" value="books">
+  <label for="books">Books</label>
+</div>
+  
+  <div>
+  <input type="radio" id="series" name="learn" value="series">
+  <label for="series">Series</label>
+</div>
+  
+  <div>
+  <input type="radio" id="podcast" name="learn" value="podcast">
+  <label for="podcast">Podcast</label>
+</div>
+  
+  <div>
+  <input type="radio" id="phoneapplication" name="learn" value="phoneapplication">
+  <label for="phoneapplication">Phone application</label>
+</div>
+
+<div>
+  <input type="radio" id="other" name="learn" value="other">
+  <label for="other">Other</label>
+  </div> <br>
+  
+  <label for="top10"> Which languages among the top 10 would you like to learn? </label>
+  <div>
+  <input type="checkbox" id="english" name="top10" value="english">
+<label for="english"> English</label><br>
+  </div>
+  <div>
+  <input type="checkbox" id="mandarin" name="top10" value="mandarin">
+<label for="mandarin"> Mandarin</label><br>
+  </div>
+  <div>
+  <input type="checkbox" id="hindi" name="top10" value="hindi">
+<label for="hindi"> Hindi</label><br>
+  </div>
+  <div>
+  <input type="checkbox" id="spanish" name="top10" value="spanish">
+<label for="spanish"> Spanish</label><br>
+  </div>
+  <div>
+  <input type="checkbox" id="french" name="top10" value="french">
+<label for="french"> French</label><br>
+  </div>
+  <div>
+  <input type="checkbox" id="arabic" name="top10" value="arabic">
+<label for="arabic"> Arabic</label><br>
+  </div>
+  <div>
+  <input type="checkbox" id="bengali" name="top10" value="bengali">
+<label for="bengali"> Bengali</label><br>
+  </div>
+  <div>
+  <input type="checkbox" id="russian" name="top10" value="russian">
+<label for="russian"> Russian</label><br>
+  </div>
+  <div>
+<input type="checkbox" id="portuguese" name="top10" value="portuguese">
+<label for="portuguese"> Portuguese</label><br>
+  </div>
+  <div>
+<input type="checkbox" id="indonesian" name="top10" value="indonesian">
+<label for="indonesian"> Indonesian</label>
+  </div> <br>
+  
+  <div>
+    
+  <label for="story">Any comments or suggestions?</label> <br> 
+
+<textarea id="story" name="story"
+          rows="7" cols="90" placeholder="Enter your comment here...">
+</textarea>
+  </div>
+  
+  <div>
+  <button type="submit" id="submit"> Submit </button>
+  </div>
+  
+</form>
+
+</div>
+</div>
